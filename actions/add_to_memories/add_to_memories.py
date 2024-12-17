@@ -16,7 +16,7 @@ from fastapi.requests import Request
 
 from open_webui.models.users import Users
 
-from open_webui.main import webui_app
+from open_webui.main import app as webui_app
 from open_webui.routers.memories import add_memory, AddMemoryForm
 
 
